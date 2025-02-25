@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiry Form</title>
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Inquiry Form</h2>
+        <form id="inquiryForm" method="POST" name="submit-to-google-sheet">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="query">Query:</label>
+            <textarea id="query" name="query" required></textarea><br><br>
+
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location" required><br><br>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required><br><br>
+
+            <button type="submit" id="submitInquiry">Submit Inquiry</button>
+        </form>
+    </div>
+
+    <div class="container">
+        <h2>Brochure Form</h2>
+        <form id="brochureForm" method="POST" name="submit-to-google-sheet1">
+            <label for="bname">Name:</label>
+            <input type="text" id="bname" name="bname" required><br><br>
+
+            <label for="bemail">Email:</label>
+            <input type="email" id="bemail" name="bemail" required><br><br>
+
+            <label for="bphone">Phone Number:</label>
+            <input type="tel" id="bphone" name="bphone" required><br><br>
+
+            <label for="bsize">Size:</label>
+            <input type="text" id="bsize" name="bsize" required><br><br>
+
+            <label for="bquery">Query:</label>
+            <textarea id="bquery" name="bquery" required></textarea><br><br>
+
+            <label for="bintime">In Time:</label>
+            <input type="time" id="bintime" name="bintime" required><br><br>
+
+            <label for="bouttime">Out Time:</label>
+            <input type="time" id="bouttime" name="bouttime" required><br><br>
+
+            <label for="blocation">Location:</label>
+            <input type="text" id="blocation" name="blocation" required><br><br>
+
+            <button type="submit" id="submitBrochure">Submit Brochure Request</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
